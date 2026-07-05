@@ -1,0 +1,11 @@
+name = "snipepatcher-worker"
+main = "src/index.ts"
+compatibility_date = "2024-03-20"
+
+[vars]
+FIREBASE_FUNCTION_URL = "http://127.0.0.1:5001/mock-project/us-central1/scanToken"
+FIRESTORE_PROJECT_ID = "mock-project"
+FIRESTORE_EMULATOR_HOST = "127.0.0.1:8081"
+
+# [[secret]]
+# name = "FIRESTORE_API_KEY"
